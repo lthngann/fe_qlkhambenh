@@ -1,0 +1,233 @@
+.wrapper {
+    background: #fff;
+
+    .section {
+        width: 100%;
+        padding: 10px 0 10px 0;
+        margin: 0;
+
+        .section-container {
+            width: 1140px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            margin-bottom: 25px;
+
+            .section-header {
+                position: relative;
+                margin-bottom: 20px;
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin: 0;
+                    padding-top: 20px;
+                }
+
+                .section-more {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background: #ebebeb;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    padding: 10px 15px;
+                    cursor: pointer;
+                    font-size: 11px;
+
+                    a {
+                        color: #282e41;
+                        text-decoration: none;
+                    }
+
+                    &:hover a {
+                        color: #fff;
+                    }
+
+                    &:hover {
+                        background: #f7d800;
+                    }
+                }
+            }
+
+            .section-body {
+                margin-left: -5px;
+                margin-right: -5px;
+
+                .slick-arrow.slick-next,
+                .slick-arrow.slick-prev {
+                    border: 2px solid #d7d7d7;
+                    width: 50px;
+                    height: 50px;
+                    color: transparent;
+                    outline: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                    opacity: 0.75;
+                    transition: all 0.2s;
+                    background-color: white;
+                    z-index: 3;
+
+                    &:hover {
+                        background: #fff;
+                        opacity: 1;
+                    }
+
+                    &::before {
+                        font-size: 0;
+                    }
+
+                    i {
+                        background: transparent;
+                        padding: 10px;
+                        font-size: 20px;
+                        color: #959595;
+                        -webkit-font-smoothing: antialiased;
+                    }
+                }
+
+                .slick-disabled {
+                    display: none;
+                }
+
+                .section-item {
+                    height: 100%;
+                    cursor: pointer;
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    .section-img {
+                        width: 274px;
+                        height: 156px;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin: auto;
+
+                        &.specialty-img {
+                            // background-image: url('../../assets/specialty/co-xuong-khop.jpg');
+                        }
+
+                        &.medical-facility-img {
+                            // background-image: url('../../assets/medicalfacility/bv-yhcttw.jpg')
+                        }
+                    }
+
+                    h3 {
+                        padding: 5px 5px;
+                        font-size: 13px;
+                        color: #111;
+                        margin: 0;
+                    }
+
+                    &:hover {
+                        h3 {
+                            color: #45c3d2;
+                        }
+                    }
+                }
+            }
+
+            .custom-btn {
+                border: 2px solid #d7d7d7;
+                width: 50px;
+                height: 50px;
+                color: transparent;
+                outline: none;
+                position: absolute;
+                top: 50%;
+                transform: translate(0, -50%);
+                opacity: 0.75;
+                transition: all 0.2s;
+
+                i {
+                    background: transparent;
+                    padding: 10px;
+                    font-size: 20px;
+                    color: #959595;
+                }
+
+                &:hover {
+                    background: #fff;
+                    opacity: 1;
+                }
+
+                &.next-btn {
+                    right: -15px;
+                }
+
+                &.prev-btn {
+                    left: -15px;
+                    z-index: 3;
+                }
+            }
+        }
+    }
+}
+
+/* Mobile - tablet */
+@media (max-width: 63.9375em) {
+    :root {
+        --header-height: 68px;
+        --navbar-height: 0px;
+    }
+
+    .hide-on-mobile-tablet {
+        display: none !important;
+    }
+
+    .wrapper {
+        .section {
+            .section-container {
+                width: 90%;
+
+                .section-body {
+                    .section-item {
+                        .section-img {
+                            width: 338px;
+                            height: 172px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width:63.9375em) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .wrapper {
+        .section {
+            .section-container {
+                width: 80%;
+
+                .section-header {
+                    h2 {
+                        font-size: 18px;
+                    }
+                }
+
+                .section-body {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}

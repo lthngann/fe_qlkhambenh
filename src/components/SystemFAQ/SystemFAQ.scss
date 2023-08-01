@@ -1,0 +1,22 @@
+.system-faq-container {
+  background-color: #006e6f;
+  padding: 15px 198px;
+
+  .system-faq-content {
+    display: flex;
+    align-items: center;
+
+    span {
+      color: #fff;
+      margin-right: 5px;
+    }
+
+    a {
+      p {
+        color: #FFF04B;
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+  }
+}

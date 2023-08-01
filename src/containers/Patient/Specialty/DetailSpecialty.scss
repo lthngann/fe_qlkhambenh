@@ -1,0 +1,55 @@
+.detail-specialty-container {
+    background-color: #eee;
+
+    .detail-specialty-content {
+        .desc-specialty {
+            padding: 10px 198px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+            .desc-title {
+                padding: 15px 0;
+
+                h1 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 0;
+                }
+            }
+
+            .desc-content {
+                h2 {
+                    color: inherit;
+                    font-family: inherit;
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+
+                p {
+                    line-height: 1.2;
+                    margin: 5px 0;
+                }
+
+                ul {
+                    margin: 10px 0px 10px 25px;
+                    padding: 0;
+                }
+
+                &.desc-hide {
+                    height: 90px;
+                    overflow: hidden;
+                }
+            }
+
+            .view-detail {
+                color: #45c3d2;
+                cursor: pointer;
+                padding-top: 5px;
+                width: fit-content;
+                user-select: none;
+            }
+        }
+
+
+    }
+}

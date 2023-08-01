@@ -1,0 +1,185 @@
+{
+    "home-header": {
+        "speciality": "Medical specialty",
+        "search-doctor": "Find a doctor by specialty",
+        "health-facility": "Health facilities",
+        "select-room": "Choose hospital clinic",
+        "doctor": "Dortor",
+        "select-doctor": "Choose a good doctor",
+        "medical-package": "Checkup package",
+        "general-examination": "General health check",
+        "support": "Support",
+        "welcome": "Welcome, ",
+        "home": "Home",
+        "manual": "Manual",
+        "partnership-contact": "Partnership Contact",
+        "contact": "Contact",
+        "faq": "Frequently Asked Questions",
+        "terms-of-use": "Terms of Use",
+        "back": "Back"
+    },
+    "banner": {
+        "medical-background": "MEDICAL BACKGROUND",
+        "comprehensive-health": "COMPREHENSIVE HEALTH CARE",
+        "specialist-examination": "Specialist Examination",
+        "remote-examination": "Remote Examination",
+        "general-examination": "General Examination",
+        "medical-test": "Medical Test",
+        "mental-health": "Mental Health",
+        "dental-examination": "Dental Examination"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users system",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admins",
+            "manage-users": "Manage users",
+            "manage-clinic": "Manage clinics",
+            "clinic": "Clinics",
+            "specialty": "Specialties",
+            "manage-specialty": "Manage specialties"
+        },
+        "doctor": {
+            "manage-schedule": "Manage doctor's schedule",
+            "manage-patient": "Manage doctor's patient"
+        }
+    },
+    "manage-user": {
+        "manage": "Manage users",
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Avatar",
+        "save": "Save user",
+        "edit": "Edit user"
+    },
+    "home-page": {
+        "outstanding-doctor": "Last week's featured doctor",
+        "more-info": "More info",
+        "specialty-popular": "Popular specialties",
+        "outstanding-clinic": "Outstanding medical facility"
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save": "Save infor"
+    },
+    "manage-specialty": {
+        "show": "See more",
+        "hide": "Hide"
+    },
+    "manage-clinic": {
+        "introduce": "Introduce",
+        "strengths": "Professional strengths",
+        "equipment": "Equipment",
+        "location": "Location",
+        "procedure": "Medical examination process"
+    },
+    "system-fqa": {
+        "learn-more": "Need to learn more? ",
+        "fqa": "See frequently asked questions."
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Schedule",
+            "no-schedule": "No appointment during this time, please choose another time!",
+            "choose": "Choose",
+            "and-book": "and book",
+            "book-fee": " (Booking free 0"
+        },
+        "extra-infor-doctor": {
+            "text-address": "Clinic's address",
+            "price-show": "Price: ",
+            "price": "Price",
+            "view-detail": "View detail",
+            "hide-detail": "Hide price list",
+            "payment": "The hospital has payment in various forms: "
+        },
+        "booking-modal": {
+            "title": "Information to book a medical appointment",
+            "full-name": "Full Name",
+            "phone-number": "Phone number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Reasons for medical examination",
+            "birthday": "Day of birth",
+            "gender": "Gender",
+            "btn-confirm": "Confirm",
+            "btn-cancel": "Cancel",
+            "price-booking": "Free booking",
+            "price": "Price: ",
+            "view-detail": "See more"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "More doctor information",
+            "select-doctor": "Select doctor",
+            "intro": "Introduction: ",
+            "save": "Save information",
+            "add": "Create information",
+            "price": "Price",
+            "payment": "Payment",
+            "province": "Province",
+            "name-clinic": "Clinic's name",
+            "address-clinic": "Clinic's address",
+            "note": "Note",
+            "select-specialty": "Select specialty",
+            "select-clinic": "Select clinic"
+        },
+        "manage-specialty": {
+            "specialty-management": "Specialty Management",
+            "name-vi": "Vietnamese specialist name",
+            "name-en": "English specialist name",
+            "desc": "Specialized information",
+            "specialty-photo": "Specialty photo",
+            "save": "Save",
+            "edit": "Save changes",
+            "upload-img": "Upload image "
+        },
+        "manage-clinic": {
+            "title": "Clinic Management",
+            "name": "Clinic name",
+            "image": "Clinic photo",
+            "logo": "Clinic logo",
+            "address": "Clinic address",
+            "save": "Save the clinic",
+            "edit": "Save changes",
+            "upload-img": "Upload image ",
+            "desc-introduce": "More introductory information",
+            "desc-strengths": "More information about strengths",
+            "desc-equipment": "More equipment information",
+            "desc-location": "More location information",
+            "desc-procedure": "More information about the examination process",
+            "modal": {
+                "info": "Information ",
+                "add": "Add",
+                "cancel": "Cancel"
+            }
+        }
+    },
+    "footer": {
+        "contact": "Partnership contact",
+        "edtp": "Enterprise digital transformation package",
+        "recruit": "Recruit",
+        "faq": "Frequently Asked Questions",
+        "terms-of-use": "Terms Of Use",
+        "policy": "Privacy Policy",
+        "support-process": "Complaint resolution support process",
+        "regulations": "Operating regulations",
+        "headquarters": "Headquartered in Hanoi",
+        "address-hn": "Cau Giay, Hanoi",
+        "office": "Ho Chi Minh City Office",
+        "address-hcm": "Ward 15, District 10",
+        "support": "Customer Support",
+        "time-email": "support@bookingcare.vn (7:30AM - 6:00PM)"
+    }
+}

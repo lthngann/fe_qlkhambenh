@@ -1,0 +1,35 @@
+.manage-schedule-container {
+    .pick-hour-container {
+        padding-bottom: 15px;
+    }
+
+    .btn-schedule {
+        background: #fff04b;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        margin-right: 8px;
+        line-height: 1.6;
+        vertical-align: middle;
+        white-space: nowrap;
+        text-align: center;
+        color: #333;
+        font-weight: bolder;
+        position: relative;
+        border: none;
+
+        &:hover {
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0px 0px 0px 2px #33b0e3 inset;
+        }
+
+        &.active {
+            background-color: #33b0e3;
+
+            &:hover {
+                box-shadow: 0px 0px 0px 2px black inset;
+            }
+        }
+    }
+}
